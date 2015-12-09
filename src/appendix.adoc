@@ -168,7 +168,7 @@ ClojureScript. The next step is to add event handling to the button. Event handl
 is loaded with all sorts of cross-platform compatibility issues, so we’d like one
 step up from plain ClojureScript.
 
-The solution is the Google Closure library. To use it, you have to modify the
+The solution is the https://developers.google.com/closure/library/[Google Closure library]. To use it, you have to modify the
 `:require` clause at the beginning of `core.cljs`:
 
 [source,clojure]
